@@ -1,0 +1,538 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: brown;
+}
+.logo{
+    width: 150px;
+}
+.nav-item{
+font-size: 20px;
+font-weight: 500;
+margin-left: 100px;
+transition: 0.4s;
+padding: 0px 10px;
+
+}
+.nav-item:hover{
+    
+    background-color: rgba(0, 181, 209, 0.204);
+    border-radius: 4px;
+    transition: 0.4s;
+   
+}
+
+.bg{
+background-image: url("img/bg.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 900px;
+
+}
+.text{
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+.text1{
+    color: rgb(169, 237, 247);
+    font-size: 40px;
+    position: absolute;
+    left: 200px;
+    top: 550px;
+    
+}
+.EXP{
+    background-color:rgba(0, 181, 209, 0.536);
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.b1{
+   
+    position: absolute;
+    left: 200px; 
+    top: 690px;
+}
+.EXP:hover{
+    background-color:rgba(0, 221, 255, 0.828);
+    width: 152px;
+    height: 42px;
+    transition: 0.5s;
+}
+
+.fa{
+    font-size: large;
+}
+.fs{
+    text-align: center;
+}
+.fs h1{
+   color: rgb(51, 217, 246);
+}
+.wapper img{
+    width: 180px;
+    border-radius: 500px;
+    height: 180px;
+    
+    transition: scale 400ms;
+}
+.im{
+    position: relative;
+    top: -50px;
+}
+
+
+.wapper{
+    overflow: hidden;
+    display: inline-block;
+    height: 300px;
+}
+
+.wapper:hover img{
+    scale: 110%;
+    box-shadow: 30px black;
+}
+.bg2{
+    background-image: url("img/b2.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 640px;
+}
+.card-img-top{
+   height: 220px;
+}
+.card button{
+width: 100%;
+border: none;
+color: white;
+background-color: rgba(2, 201, 201, 0.526);
+height: 40px;
+}
+.card button:hover{
+    width: 100%;
+    border: 2px solid white;
+    color: white;
+    background-color: rgba(15, 236, 236, 0.526);
+    height: 40px;
+    }
+.card p{
+    font-size: 12px;
+}
+.carousel-item img{
+    height: 700px;
+}
+.h h1{
+    
+    font-size: 70px;
+    font-weight: 400;
+    color: rgb(51, 217, 246);
+}
+.half{
+    width: 65%;
+    position: relative;
+    left: 320px;
+}
+.asf p{
+ font-size: 24px;
+ font-weight: 500;
+ color: white;
+ padding-top: 10px;
+}
+.asf h1{
+    color: white;
+    padding-bottom: 10px;
+}
+.spac{
+    height: 60vh;
+    margin-top: 150px;
+}
+.siz img{
+    width: 100%;
+    height: 400px;
+}
+.mg h2{
+   color:rgb(51, 217, 246); 
+  font-size: 40px;
+}
+.mg{
+    padding-top: 50px;
+}
+.cover img{
+    height: 600px;
+}
+.cover{
+    position: relative;
+    top: -500px;
+    left: 350px;
+}
+@media(max-width:1000px){
+    .about{
+        display: none;
+    }
+.siz{
+    width: 100%;
+}
+.med{
+    height: 1100px;
+}
+  
+}
+
+
+.mg button{
+    background-color:rgba(0, 181, 209, 0.536);
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.colm{
+    background-color: rgba(206, 206, 206, 0.128);
+}
+@media(max-width:1000px){
+    .mard{
+       width: 100%;
+       margin-bottom: 14px;
+       
+    }
+
+.bg2{
+    height: auto;
+}
+  
+}
+.mg button:hover{
+    background-color:rgba(0, 221, 255, 0.828);
+    width: 152px;
+    height: 42px;
+    transition: 0.5s;
+}
+.ts{
+    background-color:  rgba(206, 206, 206, 0.128);
+    height: auto;
+}
+.con h3{
+    font-size: 50px;
+    position: relative;
+    top: 500px;
+}
+@media(max-width:1000px){
+  .card-new{
+    width: 100%;
+    height: 600px;
+  }
+  .disp{
+    display: none;
+  }
+  
+}
+
+.con img{
+width: 100%;
+margin-top: 150px;
+border-radius: 50px;
+}
+.con2{
+    padding-top: 100px;
+}
+.con2 h3{
+    color: rgb(51, 217, 246);
+    font-size: 60px;
+}
+@media(max-width:1000px){
+    .lgk{  
+      height: 200vh;
+    }
+    .dym{
+        position: relative;
+        left: 100px;
+    }
+   .mnm{
+   display: none;
+   }
+   .pys{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    color: white;
+   }
+    
+  }
+
+.clo{
+    margin-top: 100px;
+    background-color: white;
+    height: 980px;
+    background-image: url("img/bg3.jpg");
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+}
+.card-new img{
+    height: 500px;
+}
+.card-new p{
+font-size: medium;
+}
+.dym img{
+width: 280px;
+}
+.lgk{
+    background: #00498ed1;
+    height: 350px;
+}
+.mnm h5{
+    color: #68bfe2;
+}
+.py{
+    padding-top: 80px;
+}
+.mnm li{
+color: white;
+}
+a{
+    color: white !important;
+    text-decoration: none !important;
+}
+@media(max-width:1000px){
+    .text{
+        width: 100%;
+        text-align: center;
+        float: none;
+        font-size: 60px;
+        position: relative;
+        left: -5px;
+      
+ 
+    }
+    .text1{
+        display: none;
+    }
+    .EXP{
+        width: 200px;
+        position: relative;
+        left: -100px;
+    }
+
+}
+.alm img{
+    height: 400px;
+   margin-bottom: 30px;
+}
+.alm h1{
+    color: rgba(0, 0, 0, 0.638);
+    
+}
+.pm{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.638);
+}
+.trucol{
+   
+border: none;
+
+box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.trucol img{
+height: 300px;
+}
+.trucol h4{
+    color: rgb(55, 186, 209);
+}
+.sctbg{
+    background-color: rgba(229, 229, 229, 0.165);
+}
+ .EXP2{
+    background-color:rgba(0, 181, 209, 0.536);
+    color: white;
+   
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    transition: 0.2s;
+ }
+ .EXP2:hover{
+    background-color:rgba(0, 221, 255, 0.828);
+    width: 252px;
+    height: 52px;
+    transition: 0.2s;
+}
+
+.aboutbg{
+    background-image: url("img/ac4ed.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 130px;
+}
+.luxbg{
+    background-image: url("img/c2ed.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+}
+.lux{
+    border: none;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.063)!important;
+}
+.lux:hover{
+    
+     border: 1px solid rgba(3, 24, 24, 0.092);   
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.205)!important;
+    
+}
+.conbg{
+    background-image: url("img/conbg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+}
+.mfas input{
+width: 270px;
+height: 44px;
+background-color: rgba(0, 181, 209, 0.536);
+border: none;
+color: white;
+border-radius: 20px;
+}
+.concard{
+    width: 100%;
+   position: relative;
+   top: 200px;
+   
+}
+@media(max-width:1000px){
+   .mfas input{
+    width: 80%;
+   }
+}
+.lem{
+    position: relative;
+    top: 250px;
+    width: 40%;
+}
+@media(max-width:1000px){
+   .classic{
+    width: 100%;
+    position: relative;
+    top: -100px;
+   }
+.lem{
+    width: 100%;
+    margin-top: -100px;
+  
+}
+
+ }
+.modalbg{
+    background-image: url(img/mldv.jpg);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 4px;
+
+}
+.btncolour{
+   color: white;
+   background-color: rgba(0, 221, 255, 0.828);
+   
+}
+.btncolour:hover{
+    color: white;
+    background-color: rgb(0, 221, 255);
+    
+ }
+ .indexm{
+    position: relative;
+    left: 100px;
+ }
+ .pms{
+    font-size: 80px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.638);
+}
+.juspin{
+    font-size: 40px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.638);
+}
+.inmld{
+    border-radius: 0 20px 20px 0px;
+    height: 300px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.205)!important;
+    width: 100%;
+}
+.inmrd{
+    border-radius: 20px 0px 0px 20px;
+    height: 300px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.361)!important;
+    width: 100%;
+}
+.knowit{
+    font-weight: 680;
+    color:rgba(13, 174, 174, 0.686) ;
+}
+.sizeform{
+    width: auto;
+    height: 270px;
+  
+}
+.reservations{
+    background-image: url(img/resvbg.jpg);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+#modalTitleIds{
+    color: white;
+    align-items: center;
+   
+}
+.reservationbutton{
+    background-color:rgba(0, 181, 209, 0.536);
+    color: white;
+   
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.reservationbutton:hover{
+    background-color:rgba(0, 221, 255, 0.828);
+    width: 252px;
+    height: 52px;
+    transition: 0.2s;
+}

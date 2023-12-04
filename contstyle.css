@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+   
+}
+form{
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+ 
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Poppins';
+   
+    
+}
+input,textarea,select{
+    width:50%;
+    font-family: 'Poppins';
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-weight: 450;
+    background-color: rgba(240, 240, 240, 0.596);
+
+    border: 2px solid rgba(255, 255, 255, 0.463);
+}
+
+.submit{
+    position: relative;
+    top: 20px;
+   border: 1px solid rgb(57, 185, 236);
+   background-color: rgba(57, 185, 236, 0.267);
+}
+select:hover{
+    box-shadow: 1px 1px 1px 1px rgba(235, 235, 235, 0.664);
+    border: 2px;
+}
+input:hover{
+    box-shadow: 1px 1px 1px 1px rgba(235, 235, 235, 0.664);
+}
+textarea:hover{
+    box-shadow: 1px 1px 1px 1px rgba(235, 235, 235, 0.664);
+}
+.submit:hover{
+    background-color: rgb(57, 185, 236);
+    color: white;
+    
+}
+#usernote,#mobilenote,#emailnote,#coursenote{
+    color: white;
+}
